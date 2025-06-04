@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project, titled **Sum of Products**, is a modular Verilog design and verification lab that implements a four-stage pipeline for computing a weighted sum of products. It serves as a practical exercise in digital design, pipelining, testbench development, and simulation-based verification using Synopsys VCS.
+This project, titled **Sum of Products**, is a modular Verilog design and verification that implements a four-stage pipeline for computing a weighted sum of products. It serves as a practical exercise in digital design, pipelining, testbench development, and simulation-based verification using Synopsys VCS.
 
 ### Project Objective
 
@@ -16,19 +16,19 @@ where `d1–d4` are data inputs and `c1–c4` are coefficient inputs.
 
 ---
 
-## File Structure
+## List of File 
 
 ```bash
-├── adder.v               # 2-input adder module
-├── mult.v                # 2-input multiplier module
-├── reg.v                 # Register module with enable/reset
-├── level_2.v             # Intermediate processing module
-├── top.v                 # Top-level module connecting all components
-├── exhaustive_tb.v       # Exhaustive testbench for all input combinations
-├── non_exhaustive_tb.v   # Simplified functional testbench
-├── ErrorFree.log         # Log showing successful execution
-├── ForceError.log        # Log showing an intentionally injected error
-├── ForceError_test_passing.log  # Log from passing all tests
+adder.v               # 2-input adder module
+mult.v                # 2-input multiplier module
+reg.v                 # Register module with enable/reset
+level_2.v             # Intermediate processing module
+top.v                 # Top-level module connecting all components
+exhaustive_tb.v       # Exhaustive testbench for all input combinations
+non_exhaustive_tb.v   # Simplified functional testbench
+ErrorFree.log         # Log showing successful execution
+ForceError.log        # Log showing an intentionally injected error
+ForceError_test_passing.log  # Log from passing all tests
 ```
 
 ---
@@ -86,4 +86,4 @@ This lab reinforces the following core concepts:
 
 ## Author
 
-Abrar –
+Abrar, Hasin
