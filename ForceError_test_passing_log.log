@@ -1,0 +1,13 @@
+Command: /home/users16/ha171673/526L/Lab08/./simv -l ForceError_test_passing.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP1_Full64; Runtime version U-2023.03-SP1_Full64;  Apr 29 21:35 2025
+VCD+ Writer U-2023.03-SP1_Full64 Copyright (c) 1991-2023 by Synopsys Inc.
+=== Exhaustive Testbench (WITH/WITHOUT Error) ===
+All exhaustive tests passed successfully.
+$finish called from file "exhaustive_tb.v", line 87.
+$finish at simulation time              1310720
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1310720 ns
+CPU Time:      0.280 seconds;       Data structure size:   0.0Mb
+Tue Apr 29 21:35:22 2025

@@ -1,0 +1,26 @@
+Command: /home/users16/ha171673/526L/Lab08/./simv -l ErrorFree.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP1_Full64; Runtime version U-2023.03-SP1_Full64;  Apr 29 21:46 2025
+                   0 d1= x c1= x d2= x c2= x d3= x c3= x d4= x c4= x => final_out=   x
+                  10 d1= 4 c1= 2 d2= 3 c2= 5 d3= 1 c3= 7 d4= 0 c4= 9 => final_out=   x
+                  15 d1= 4 c1= 2 d2= 3 c2= 5 d3= 1 c3= 7 d4= 0 c4= 9 => final_out=  30
+                  20 d1= 0 c1= 0 d2= 0 c2= 0 d3= 0 c3= 0 d4= 0 c4= 0 => final_out=   0
+                  30 d1=15 c1=15 d2=15 c2=15 d3=15 c3=15 d4=15 c4=15 => final_out=   0
+                  35 d1=15 c1=15 d2=15 c2=15 d3=15 c3=15 d4=15 c4=15 => final_out= 900
+                  40 d1= 1 c1= 1 d2= 1 c2= 1 d3= 1 c3= 1 d4= 1 c4= 1 => final_out=  60
+                  45 d1= 1 c1= 1 d2= 1 c2= 1 d3= 1 c3= 1 d4= 1 c4= 1 => final_out=   4
+                  50 d1= 8 c1= 7 d2= 3 c2= 6 d3= 2 c3= 5 d4= 4 c4= 3 => final_out=  21
+                  55 d1= 8 c1= 7 d2= 3 c2= 6 d3= 2 c3= 5 d4= 4 c4= 3 => final_out=  96
+                  60 d1= 5 c1= 2 d2= 6 c2= 4 d3= 7 c3= 8 d4= 9 c4= 1 => final_out=  48
+                  65 d1= 5 c1= 2 d2= 6 c2= 4 d3= 7 c3= 8 d4= 9 c4= 1 => final_out=  99
+                  70 d1= 2 c1= 3 d2= 5 c2= 7 d3= 1 c3= 2 d4= 8 c4= 6 => final_out= 125
+                  75 d1= 2 c1= 3 d2= 5 c2= 7 d3= 1 c3= 2 d4= 8 c4= 6 => final_out=  91
+                  80 d1= 9 c1= 1 d2=10 c2= 2 d3=11 c3= 3 d4=12 c4= 4 => final_out=  47
+                  85 d1= 9 c1= 1 d2=10 c2= 2 d3=11 c3= 3 d4=12 c4= 4 => final_out= 110
+$finish called from file "non_exhaustive_tb.v", line 39.
+$finish at simulation time               100000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 100000 ps
+CPU Time:      0.170 seconds;       Data structure size:   0.0Mb
+Tue Apr 29 21:46:02 2025
